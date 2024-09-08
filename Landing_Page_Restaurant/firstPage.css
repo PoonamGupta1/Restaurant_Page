@@ -1,0 +1,429 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.inside {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(176, 44, 44);
+}
+.inside a {
+  color: white;
+  text-decoration: none;
+  font-family: system-ui;
+  font-weight: normal;
+}
+.inside-in {
+  padding: 12px;
+  display: flex;
+  width: 60%;
+  background-color: rgb(233, 168, 47);
+  border-radius: 10px 50px;
+  justify-content: space-evenly;
+}
+.inside-in a {
+  color: black;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-family: system-ui;
+  font-weight: 490;
+}
+.inside-out {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.inside a:hover {
+  color: orange;
+  text-decoration: none;
+}
+.inside-in a:hover {
+  color: rgb(176, 44, 44);
+  text-decoration: none;
+}
+.slideshow-container {
+  position: relative;
+  width: 100%; /* Adjust width as needed */
+  max-width: 600px; /* Max width for the slideshow */
+  margin: auto;
+  overflow: hidden;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 300px;
+  border: 2px solid transparent;
+}
+.image-in {
+
+  border: 1px solid gold;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 10px 20px;
+  box-shadow: 1px 2px 3px;
+  margin-top: 14px;
+}
+
+
+
+.image-container img {
+  border-radius: 12px;
+}
+
+.image-container {
+  height: 220px;
+  padding: 11px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding-inline: 12px;
+  font-weight: 300;
+  height: 40px;
+  text-decoration: none;
+}
+.text-container a{
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+
+}
+
+.text-container a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.image-in-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+.heading {
+  border: 1px solid gold;
+  box-shadow: 1px 2px 3px;
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px 10px;
+  background-color: burlywood;
+  color:black;
+  font-family: math;
+}
+
+.heading-out {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-out .heading h4{
+  font-size: 1.1rem;
+}
+
+.image-container img{
+  height: 200px;;
+}
+
+.carousel-item div img{
+  height: 380px;;
+}
+.inside .nav-heading a {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width:1000px) and (min-width:500px) {
+  .inside {
+    font-size: 0.7rem;
+    padding:5px;
+  }
+  .inside-in {
+    padding: 12px;
+    display: flex;
+    width: 75%;
+    background-color: rgb(233, 168, 47);
+    border-radius: 10px 50px;
+    justify-content: space-evenly;
+  }
+  .inside-in a {
+    color: black;
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: 490;
+  }
+  .inside-out {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+  }
+  
+  .inside a:hover {
+    color: orange;
+    text-decoration: none;
+  }
+  .inside-in a:hover {
+    color: rgb(176, 44, 44);
+    text-decoration: none;
+  }
+  .slideshow-container {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Max width for the slideshow */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100px;
+    border: 2px solid transparent;
+  }
+  .image-in {
+  
+    border: 1px solid gold;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 20px;
+    box-shadow: 1px 2px 3px;
+    margin-top: 14px;
+  }
+  
+  
+  
+  .image-container img {
+    border-radius: 12px;
+  }
+  
+  .image-container {
+    height: 120px;
+    padding: 11px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-inline: 12px;
+    font-weight: 300;
+    font-size: small;
+    height: 40px;
+    text-decoration: none;
+  }
+  .text-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  
+  }
+  
+  .text-container a:hover{
+    color: red;
+    text-decoration: none;
+  }
+  
+  .image-in-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 12px;
+  }
+  
+  .heading {
+    border: 1px solid gold;
+    box-shadow: 1px 2px 3px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 10px;
+    background-color: burlywood;
+    color:black;
+    font-family: math;
+  }
+  
+  .heading-out {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading-out h4{
+    font-size: 1.1rem;
+  }
+
+  .image-container img{
+    height: 100px;;
+  }
+  .carousel-item div img{
+    height: 250px;;
+  }
+  .inside .nav-heading a {
+    font-size: 0.8rem;
+}
+  
+
+}
+@media only screen and (max-width:500px) and (min-width:100px) {
+  .inside {
+    font-size: 0.3rem;
+    padding:5px;
+  }
+  .inside-in {
+    padding: 12px;
+    display: flex;
+    width: 70%;
+    background-color: rgb(233, 168, 47);
+    border-radius: 10px 50px;
+    justify-content: space-evenly;
+  }
+  .inside-in a {
+    color: black;
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: 400;
+  }
+  .inside-out {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+  
+  .inside a:hover {
+    color: orange;
+    text-decoration: none;
+  }
+  .inside-in a:hover {
+    color: rgb(176, 44, 44);
+    text-decoration: none;
+  }
+  .slideshow-container {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Max width for the slideshow */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 50px;
+    border: 2px solid transparent;
+  }
+  .image-in {
+  
+    border: 1px solid gold;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 20px;
+    box-shadow: 1px 2px 3px;
+    margin-top: 14px;
+  }
+  
+  
+  
+  .image-container img {
+    border-radius: 12px;
+  }
+  
+  .image-container {
+    height: 120px;
+    padding: 11px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-inline: 12px;
+    font-weight: 300;
+    font-size: small;
+    height: 40px;
+    text-decoration: none;
+  }
+  .text-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  
+  }
+  
+  .text-container a:hover{
+    color: red;
+    text-decoration: none;
+  }
+  
+  .image-in-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 12px;
+  }
+  
+  .heading {
+    border: 1px solid gold;
+    box-shadow: 1px 2px 3px;
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 10px;
+    background-color: burlywood;
+    color:black;
+    font-family: math;
+  }
+  
+  .heading-out {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading-out h4{
+    font-size: 0.6rem;
+  }
+
+  .image-container img{
+    height: 70px;;
+  }
+  .carousel-item div img{
+    height: 170px;;
+  }
+  .inside .nav-heading a {
+      font-size: 0.7rem;
+  }
+
+}
